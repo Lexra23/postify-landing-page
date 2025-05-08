@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>Postify</title>
+
+    <style>
+        .bg-custom {
+            background-color: #ffffff;
+            background-image: radial-gradient(#cdcff6 2px, #ffffff 2px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="p-5 fixed top-0 left-0 right-0 flex flex-row justify-between z-10">
+        <a href="" class="text-sm">About Postify</a>
+        <a href="" class="text-sm underline">Github</a>
+    </header>
+    <main class="relative min-h-screen bg-custom ">
+        <div class="flex flex-col items-center justify-center h-screen gap-2">
+            <div>
+                <h1 class="text-6xl title">Welcome to <span class="text-main font-bold">Postify</span></h1>
+                <p class="text-center">Your personalized notes companion</p>
+            </div>
+            <div class="flex flex-row gap-2 text-sm">
+                <button class="p-2 shadow-md border border-slate-200 rounded-md bg-white hover:shadow-xl">Explore More</button>
+                <button class="p-2 shadow-md border border-slate-200 rounded-md bg-main text-white hover:shadow-xl">Get Started</button>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script type="module" src="/assets/js/main.js"></script>
+</body>
+
+</html>
